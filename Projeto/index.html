@@ -1,60 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>4FOOD</title>
 </head>
-    <header>
-        <div>
-            <img id="logo" src="img/4food.png" alt="Logo 4food">
-        </div>
-        <section>
-            <input class="nav" type="button" value="Home" hre>
-            <button class="nav">Como Funciona</button>
-            <button class="nav">Cadastro</button>
-        </section>
-        <div id="login">
-            <!-- <img src="img/cart.png" alt="Cart"> -->
-            <img src="img/login.png" alt="Login"> 
-        </div>    
-    </header>
-<body>
+<header>
+    <div>
+        <img id="logo" src="img/4food.png" alt="Logo 4food">
+    </div>
     <section>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
+        <input class="nav" type="button" value="Home" hre>
+        <button class="nav">Como Funciona</button>
+        <button class="nav">Cadastro</button>
+    </section>
+    <div id="login">
+        <!-- <img src="img/cart.png" alt="Cart"> -->
+        <img src="img/login.png" alt="Login">
+    </div>
+</header>
+
+<body>
+    <section class="home">
+        <div class="container">
+            <div id="home-esquerda">
+                <span>4FOOD SEU APP DE SUPERMERCADO</span>
+                <span>PRÁTICO, RÁPIDO E BARATO</span>
+                <span>COMA BEM. SEM SAIR DE CASA</span>
+            </div>
+            <div id="home-centro">
+                <img id="celular" src="/img/app.png" alt="imagem celular">
+            </div>
+            <div id="home-direita">
+                <img id="qrcode" src="/img/qrcode.svg" alt="Imagem qrcod">
+                <span>APP DISPONÍVEL PARA:</span>
+                <a href="https://play.google.com/store/apps" target="_blank">
+                    <img class="app-disponivel" src="/img/google-play.png" alt="Imagem disponivel no google play">
+                </a>
+                <a href="https://www.apple.com/br/app-store/" target="_blank">
+                    <img class="app-disponivel" src="/img/app-store.png" alt="Imagem disponivel na app store">
+                </a>
+            </div>
         </div>
     </section>
+    <section class="segunda-secao">
+        <div class="container">
+            <h2>COMO FUNCIONA</h2>
+            <div class="como-funciona">
+                <div class="explicacao-app">
+                    <span>1</span>
+                    <span>Entre no nosso aplicativo e selecione a opção desejada:</span>
+                    <ul>
+                        <li>compras de supermercado online</li>
+                        <li>compras de comidas prontas com uma frequência semanal.</li>
+                    </ul>
+                </div>
+                <div class="explicacao-app">
+                    <span>2</span>
+                    <span>Selecione seus produtos e separamos pra você com cuidado.</span>
+                </div>
+                <div class="explicacao-app">
+                    <span>3</span>
+                    <span>Nós entregamos na porta da sua casa.</span>
+                    <span>Cômodo e Rápido.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>COMPRAS SUPERMERCADO ONLINE</h2>
+            <div class="compras-online">
+                <div class="explicacao-compras">
+                    <img class="imagem-supermercado" src="/img/supermercado.jpg" alt="Imagem fazendo compras no supermercado">
+                </div>
+                <div class="explicacao-compras">
+                    <span>Você compra tudo o que precisa pelo aplicativo. Frutas, legumes, verduras, limpeza,
+                        congelados... O que precisar!</span>
+                    <span>A gente recebe o pedido, escolhe os produtos com cuidado e entrega para você em
+                        minutos.</span>
+                    <span>Mercado sem filas, sem peso para carregar e sem pagar a mais por isso.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>COMPRAS DE COMIDAS PRONTAS SEMANALMENTE</h2>
+            <div class="compras-online">
+                <div class="explicacao-compras">
+                    <span>Você poderá visualizar diversas ofertas diferentes de prato, para a garantia de um almoço delicioso e que cabe no seu bolso!</span>
+                    <span>Nós recebemos o seu agendamento prévio, e entregamos a sua comida no horário agendado!</span>
+                    <span>Almoço com facilidade e praticidade, e sem pagar a mais por isso.</span>
+                </div>
+                <div class="explicacao-compras">
+                    <img class="imagem-supermercado" src="/img/marmitas.jpg" alt="Imagem marmitex">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="localização">
+                <div>
+                    <h2>QUER SABER SE ATENDEMOS NA SUA REGIÃO?</h2>
+                </div>
+                <div>
+                    <img id="lupa" src="/img/lupa.svg" alt="imagem lupa de pesquisa">
+                    <input placeholder="Digite seu endereço aqui e descubra!">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>

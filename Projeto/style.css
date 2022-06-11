@@ -9,7 +9,7 @@ header {
     align-items: center;
 }
 
-div > img {
+header > div > img {
     height: 60px;
 }
 
@@ -29,4 +29,98 @@ div > img {
 
 #login {
     padding: 80px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    background-color: #EDDBD1;
+}
+
+.home > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+#qrcode {
+    width: 130px;
+    height: 130px;
+}
+
+.app-disponivel {
+    width: 150px;
+}
+
+#celular {
+    width: 300px;
+}
+
+#home-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#home-centro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#home-direita {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.segunda-secao{
+    background-color: #8b5a3e;
+    height: 100%;
+}
+
+.como-funciona {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+
+}
+
+.segunda-secao > .container > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.explicacao-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+}
+
+.compras-online {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.explicacao-compras {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-supermercado {
+    width: 100%;
+    height: 100%;
+}
+
+#lupa {
+    width: 30px;
 }
