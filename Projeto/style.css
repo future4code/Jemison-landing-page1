@@ -6,18 +6,16 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
 header > div > img {
-
-div > img {
-
     height: 5vh;
 }
 
 #logo {
-    height: 25vh;
+    height: 15vh;
 }
 
 .nav {
@@ -28,12 +26,13 @@ div > img {
     border-color: #A18A7D;
     color: #8b5a3e;
     text-decoration: none;
+
 }
 
 .quebra {
     display: flex;
-    align-items: center;
     text-align: center;
+    height: 5vh;
 }
 
 #login {
