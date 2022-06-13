@@ -8,7 +8,11 @@ header {
     align-items: center;
 }
 
+
 header > div > img {
+
+div > img {
+
     height: 5vh;
 }
 
@@ -35,6 +39,7 @@ header > div > img {
 #login {
     padding: 9vh;   
 }
+
 
 .container {
     max-width: 1000px;
@@ -185,7 +190,6 @@ body > section {
     height: 20px;
     font-size: 24px;
 }
-
 
 
 @media screen and (max-device-width: 400px) {
