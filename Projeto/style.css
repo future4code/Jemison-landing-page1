@@ -8,18 +8,21 @@ header {
     align-items: center;
 }
 
+
+header > div > img {
+
 div > img {
+
     height: 5vh;
 }
 
 #logo {
-    height: 35vh;
+    height: 25vh;
 }
 
 .nav {
     width: 27vh;
     height: 5vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     border-radius: 20px;
     border-color: #A18A7D;
@@ -36,6 +39,158 @@ div > img {
 #login {
     padding: 9vh;   
 }
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    background-color: #EDDBD1;
+}
+
+.home > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+#qrcode {
+    width: 130px;
+    height: 130px;
+}
+
+.app-disponivel {
+    width: 150px;
+}
+
+#celular {
+    width: 300px;
+}
+
+#home-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-size: 20px;
+    gap: 20px;
+}
+
+#home-centro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#home-direita {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.segunda-secao{
+    
+    height: 100%;
+}
+
+.como-funciona {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.titulo-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.explicacao-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10%;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.numeros-explicacao {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.compras-online {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.terceira-secao {
+    background-color: #D1EDEC;
+}
+
+.explicacao-compras {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.imagem-supermercado {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#lupa {
+    position: absolute;
+    width: 30px;
+    top: 15px;
+    left: 15px;
+}
+
+.quinta-secao {
+    background-image: url("/img/maps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.descobrir-localizacao {
+    display: flex;
+    justify-content: center;
+}
+
+body > section {
+    padding: 60px 0px;
+}
+
+.localizacao {
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.pesquisar {
+    position: relative;
+}
+
+.pesquisar > input {
+    padding: 20px 20px 20px 60px;
+    height: 20px;
+    font-size: 24px;
+}
+
 
 @media screen and (max-device-width: 400px) {
     .quebra {
