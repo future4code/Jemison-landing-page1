@@ -1,0 +1,40 @@
+footer{
+    background-color: #A18A7D;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.pagamento{
+display: block;
+}
+
+.institucional{
+    display: block;
+}
+
+.comunicado{
+    display: block;
+    
+}
+
+.food{
+    display: block;
+    height: 100px;
+}
+
+.img{
+    height: 45px;
+}
+
+.margem{
+    margin: 0px 50px 0px 30px ;
+}
+
+.margem2{
+    margin: 0px 100px 0px 0px ;
+}
+
+.pagamento{
+    display: block;
+    margin: 10px;
+}
