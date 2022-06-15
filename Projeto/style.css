@@ -10,7 +10,7 @@ header {
 }
 
 
-header > div > img {
+header>div>img {
     height: 5vh;
 }
 
@@ -36,7 +36,7 @@ header > div > img {
 }
 
 #login {
-    padding: 9vh;   
+    padding: 9vh;
 }
 
 
@@ -51,7 +51,7 @@ header > div > img {
     background-color: #EDDBD1;
 }
 
-.home > .container {
+.home>.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
@@ -92,8 +92,8 @@ header > div > img {
     gap: 10px;
 }
 
-.segunda-secao{
-    
+.segunda-secao {
+
     height: 100%;
 }
 
@@ -168,7 +168,7 @@ header > div > img {
     justify-content: center;
 }
 
-body > section {
+body>section {
     padding: 60px 0px;
 }
 
@@ -184,11 +184,53 @@ body > section {
     position: relative;
 }
 
-.pesquisar > input {
+.pesquisar>input {
     padding: 20px 20px 20px 60px;
     height: 20px;
     font-size: 24px;
 }
+
+footer {
+    background-color: #A18A7D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagamento {
+    display: block;
+}
+
+.institucional {
+    display: block;
+}
+
+.comunicado {
+    display: block;
+
+}
+
+.food {
+    display: block;
+    height: 100px;
+}
+
+.img {
+    height: 45px;
+}
+
+.margem {
+    margin: 0px 50px 0px 30px;
+}
+
+.margem2 {
+    margin: 0px 100px 0px 0px;
+}
+
+.pagamento {
+    display: block;
+    margin: 10px;
+}
+
 
 
 @media screen and (max-device-width: 400px) {
@@ -196,6 +238,7 @@ body > section {
         display: flex;
         flex-direction: column;
     }
+
     .nav {
         font-size: 12px;
     }
