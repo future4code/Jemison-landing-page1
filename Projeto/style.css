@@ -233,7 +233,12 @@ footer {
 
 
 
-@media screen and (max-device-width: 400px) {
+@media screen and (max-device-width: 375px) {
+    
+    header {
+        margin-left: 60px;
+    }
+
     .quebra {
         display: flex;
         flex-direction: column;
@@ -242,4 +247,71 @@ footer {
     .nav {
         font-size: 12px;
     }
+
+    #home-esquerda {
+        display: none;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;   
+        text-align: center;   
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .margem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .margem2 {
+        font-size: 12px;
+        display: flex;
+        margin: 4vh;
+        align-items: center;
+    }
+
+    .margem4 {        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-bot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food {
+        height: 35vh;
+    }
+
+    .localizacao > div > h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .pesquisar > input {
+        width: 120px;
+        font-size: 13px;
+    }
+
+    .home > .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .imagem-supermercado {
+        height: 300px;
+    }
+
+
 }
+
