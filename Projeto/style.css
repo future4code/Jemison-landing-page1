@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+ /* HEADER */
 header {
     display: flex;
     align-items: center;
@@ -40,7 +41,7 @@ header>div>img {
     padding: 9vh;
 }
 
-
+/* PRIMEIRA SESSÃO */
 .container {
     max-width: 1000px;
     width: 100%;
@@ -93,6 +94,8 @@ header>div>img {
     gap: 10px;
 }
 
+
+/* SEGUNDA SESSÃO */
 .segunda-secao {
 
     height: 100%;
@@ -125,6 +128,8 @@ header>div>img {
     width: 30%;
 }
 
+
+/* TERCEIRA SESSÃO */
 .compras-online {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -151,6 +156,8 @@ header>div>img {
     padding: 10px;
 }
 
+
+/* QUARTA SESSÃO */
 #lupa {
     position: absolute;
     width: 30px;
@@ -192,6 +199,8 @@ body>section {
     box-sizing: content-box;
 }
 
+
+/* FOOTER */
 footer {
     background-color: #A18A7D;
     display: flex;
